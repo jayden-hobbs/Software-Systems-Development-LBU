@@ -2,12 +2,12 @@ package Exception_Handling_Mechanisms;
 
 public class ArrayProcessor {
 	
-	public int getArrayLength(Object[] a) {
+	public int getArrayLength(int[] is) {
 		int count = 0;
 		
 		try {
 			while (true) {
-				Object t = a[count];
+				Object t = is[count];
 				count++;
 			}
 		} catch (Exception e) {
